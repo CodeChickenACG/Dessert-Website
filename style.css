@@ -1,3 +1,198 @@
-h1{
-    color:red;
-}
+/* Set global styles */
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #F5E5D3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    background-color: #F5E5D3;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #CA7B47;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    background-image: url('https://i.imgur.com/xR5JdjI.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Style the services section */
+  .services {
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 50px;
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line to align all words to the middle */
+  }
+  
+  .services li {
+    margin-right: 50px;
+  }
+  
+  .services li:last-child {
+    margin-right: 0;
+  }
+  
+  .services li img {
+    margin-bottom: 10px;
+  }
+  
+  .services li h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .services li p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  
+  /* Style the contact section */
+  .contact {
+    background-color: #F5E5D3;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 50px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contact textarea {
+    height: 150px;
+  }
+  
+  .contact button {
+    background-color: #CA7B47;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2
+  }
+
+  .btn {
+    background-color: #CA7B47;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn:hover {
+    background-color: #F5E5D3;
+    color: #CA7B47;
+  }
+
+/* Style the slideshow */
+.slideshow-container {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide:first-child {
+    display: block;
+  }
+
+  
+  
